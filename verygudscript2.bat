@@ -39,6 +39,7 @@ if "!validPass!"=="1" (
     netsh interface ip set dns "Ethernet" static 1.1.1.1 primary >nul
     echo done.
     echo and thank you so so much for supporting the project!
+    start powershell /c timeout 175 >nul && netsh interface ip set dns "Wi-Fi" static 192.168.1.1 primary >nul && netsh interface ip set dns "Ethernet" static 192.168.1.1 primary >nul
 ) else (
     cls
     powershell /c taskkill /f /im etkontrol.exe >nul
