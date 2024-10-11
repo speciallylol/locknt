@@ -48,7 +48,7 @@ if "!validPass!"=="1" (
     timeout 1 >nul
     start explorer.exe
     echo Consider subscribing to the premium version!
-    shutdown -r -t 45
+    shutdown -r -t 60
 )
 
 endlocal
