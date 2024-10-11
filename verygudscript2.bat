@@ -20,7 +20,7 @@ rem Initialize a flag to check if a valid password was found
 set "validPass=0"
 
 rem Check if the input matches any of the passwords
-for %%p in ("%pass1%" "%pass2%" "%pass3%" "%pass4%") do (
+for %%p in ("%pass1%" "%pass2%" "%pass3%" "%pass4%" "%pass5% "%pass6%) do (
     if "!input!"=="%%~p" (
         set "validPass=1"
     )
